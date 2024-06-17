@@ -69,7 +69,7 @@ def detail_result(data):
 
 record_log()
 # 使用示例  
-scan_id = 'b47b5b71-3e64-4f97-9455-ec9bb1f72839'  # 替换为你的scan_id  
+scan_id = '6c080f3e-089f-47a7-acbb-1df7e6eb0c39'  # 替换为你的scan_id  
 results = get_scan_results(scan_id)  
 if results is not None:  
     detail_result(results)
